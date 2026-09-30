@@ -1,0 +1,13 @@
+# Test brief with generated placeholder photos, for trying the pipeline with --mock.
+photos:
+  dir: ./photos
+  rights: owned
+facts:
+  address: 12 Sample Road
+  town: Leominster
+  postcode: HR6 8AA
+  propertyType: Semi-detached
+  bedrooms: 3
+  askingPrice: 250000
+  tenure: Freehold
+notes: Placeholder property for testing.

@@ -1,0 +1,26 @@
+# One brief per property. Copy this file, fill it in, then run:
+#   npm run pp-content -- new path/to/brief.yaml
+
+# Optional. The page is read for facts only; its photos are never downloaded.
+# Estate agent or auction pages work; Rightmove, Zoopla and OnTheMarket are refused.
+listingUrl: https://www.example-agent.co.uk/property/12345
+
+photos:
+  dir: ./photos            # folder of JPG/PNG/WEBP photos, used in name order
+  # files: [front.jpg, kitchen.jpg]
+  rights: owned            # owned | permission
+  permissionNote: ""       # required with "permission": who agreed, how, and when
+
+# Facts you know. They are stored as USER_SUPPLIED and may be stated in the Reel.
+facts:
+  address: 12 Example Road
+  town: Leominster
+  postcode: HR6 8AA
+  propertyType: Semi-detached
+  bedrooms: 3
+  askingPrice: 250000
+  tenure: Freehold
+
+# Anything else worth knowing (also counts as your own information).
+notes: >
+  Original 1930s features, large rear garden, kitchen needs updating.
